@@ -1,0 +1,25 @@
+.Iconscont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.p {
+    position: relative;
+}
+
+.counter {
+    position: absolute;
+    color: red;
+    top: -5px;
+    left: 15px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #3bb77e;
+    text-align: center;
+    color: #fff;
+
+
+}
