@@ -1,0 +1,38 @@
+.newsLattercont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 2rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 50px;
+}
+
+.iconcont {
+    width: 30px;
+    padding-left: 20px;
+    height: 20px;
+}
+
+.inputcont input {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    height: 50px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btncont {
+    padding: 1rem 2rem;
+    background-color: var(--primaryColor);
+    color: white;
+    font-weight: 600;
+    border-radius: 2rem;
+}

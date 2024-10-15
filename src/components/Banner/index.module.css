@@ -1,7 +1,39 @@
 .bannercont {
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-    margin: 0 auto;
     border-radius: 1rem;
+    gap: 10px;
+    overflow-x: hidden;
+    padding-right: 0;
+    height: 450px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    justify-content: center;
+    margin: 0 10px;
+    align-items: start;
+    gap: 20px;
+    padding: 50px;
+}
+
+.sbanner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    overflow: hidden;
+}
+
+ul {
+    column-gap: 0px !important;
+}
+
+.bannercont h4 {
+    /* width: 400px; */
+    /* display: flex; */
+    font-size: 50px;
+    color: #253D4E;
+    /* justify-content: center; */
+
 }

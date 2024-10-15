@@ -48,10 +48,15 @@ img {
 }
 
 
+
 img {
   height: 100%;
   width: 100%;
 }
+
+/* .react-multi-carousel-list {
+  display: block !important;
+} */
 
 .select__indicator-separator {
   display: none !important;
@@ -59,7 +64,7 @@ img {
 }
 
 .react-multi-carousel-dot-list {
-  bottom: 30px !important;
+  bottom: 50px !important;
 }
 
 .react-multi-carousel-dot button {

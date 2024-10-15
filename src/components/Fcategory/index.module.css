@@ -1,0 +1,15 @@
+.titleCont {
+    display: flex;
+    column-gap: 20px;
+}
+
+
+
+.ul {
+    display: flex;
+    justify-content: end;
+    column-gap: 20px;
+    list-style: none;
+    font-size: 16px;
+    text-transform: capitalize;
+}

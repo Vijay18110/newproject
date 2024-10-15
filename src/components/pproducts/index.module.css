@@ -1,0 +1,29 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.content h2 {
+    font: 300;
+    font-size: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content ul {
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    list-style: none;
+}
+
+.content ul li {
+    margin: 10px;
+
+    &:hover {
+        color: var(--primaryColor);
+    }
+}

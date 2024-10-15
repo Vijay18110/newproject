@@ -1,0 +1,19 @@
+.btn {
+    padding: .4rem .5rem;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+    transform-origin: left;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        background-color: var(--primaryColor);
+        background-color: white;
+        padding-left: 10px;
+    }
+}

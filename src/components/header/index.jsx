@@ -73,9 +73,9 @@ const Header = () => {
                     </div>
                     <div className={styles.icons}>
                         {
-                            icons.map((item) => {
+                            icons.map((item, index) => {
                                 return (
-                                    <Icons icon={item.icon} counter={item.counter} name={item.name} />
+                                    <Icons key={index} icon={item.icon} counter={item.counter} name={item.name} />
                                 )
                             })
                         }
