@@ -17,9 +17,17 @@
 
 .main>h2 {
     height: 50px;
-    margin-bottom: 20px;
+    font-size: x-large;
+    margin-bottom: 10px;
 }
 
+.imgcont {
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px !important;
+    object-fit: cover;
+    height: 50px !important;
+}
 
 .logoCont {
     width: 200px;
@@ -38,17 +46,16 @@
     font-size: large;
 }
 
-
 .list {
     display: flex;
     flex-direction: column;
-    /* width: 400px; */
-    gap: 20px;
+    gap: 10px;
     margin-bottom: 20px;
 }
 
 .list span {
-    color: #7e7e7e;
+    font-size: 15px;
+    color: rgb(37, 61, 78);
 }
 
 .rs {

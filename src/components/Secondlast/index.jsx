@@ -1,23 +1,21 @@
 import React from "react";
 import styles from './index.module.css';
-import NewsLatter from "../Newsletter/input";
-import { IoStar } from "react-icons/io5";
-import logo from '../../assets/logo1.svg'
+// import { IoStar } from "react-icons/io5";
+import logo from '../../assets/logo.svg'
 import { MdEditLocation } from "react-icons/md";
 import { SlEarphones } from "react-icons/sl";
 import { IoIosSend } from "react-icons/io";
 import { IoIosTime } from "react-icons/io";
-import img1 from '../../assets/btn/app-store.jpg'
-import img2 from '../../assets/btn/google-play.jpg'
-
+import img1 from '../../assets/slogo/app-store.jpg'
+import img2 from '../../assets/slogo/google-play.jpg'
+import payment from '../../assets/slogo/payment.png'
+import Container from "../../ui/Container";
 const Secondlast = ({ productsdata }) => {
-    return <>
+    return <Container>
         <div className={styles.productsCont}>
             <div className={styles.main}>
                 <div style={{ backgroundImage: `url(${logo})` }} className={styles.logoCont}>
-
                 </div>
-
                 <div className={styles.list}>
                     <span>Awesome grocery store website <br />template</span>
                     <p>
@@ -44,9 +42,9 @@ const Secondlast = ({ productsdata }) => {
             <div className={styles.main}>
                 <h2> About Us</h2>
                 {
-                    productsdata.map((item) => {
+                    productsdata.map((item, index) => {
                         if (item.name === "About Us") {
-                            return <div className={styles.list}>
+                            return <div key={index} className={styles.list}>
                                 <span>{item.s1}</span>
                                 <span>{item.s2}</span>
                                 <span>{item.s3}</span>
@@ -63,9 +61,9 @@ const Secondlast = ({ productsdata }) => {
             </div> <div className={styles.main}>
                 <h2>Account</h2>
                 {
-                    productsdata.map((item) => {
+                    productsdata.map((item, index) => {
                         if (item.name === "Account") {
-                            return <div className={styles.list}>
+                            return <div key={index} className={styles.list}>
                                 <span>{item.s1}</span>
                                 <span>{item.s2}</span>
                                 <span>{item.s3}</span>
@@ -82,9 +80,9 @@ const Secondlast = ({ productsdata }) => {
             </div> <div className={styles.main}>
                 <h2> Corporate</h2>
                 {
-                    productsdata.map((item) => {
+                    productsdata.map((item, index) => {
                         if (item.name === "Corporate") {
-                            return <div className={styles.list}>
+                            return <div key={index} className={styles.list}>
                                 <span>{item.s1}</span>
                                 <span>{item.s2}</span>
                                 <span>{item.s3}</span>
@@ -101,9 +99,9 @@ const Secondlast = ({ productsdata }) => {
             </div> <div className={styles.main}>
                 <h2>Popular</h2>
                 {
-                    productsdata.map((item) => {
+                    productsdata.map((item, index) => {
                         if (item.name === "Popular") {
-                            return <div className={styles.list}>
+                            return <div key={index} className={styles.list}>
                                 <span>{item.s1}</span>
                                 <span>{item.s2}</span>
                                 <span>{item.s3}</span>
@@ -128,8 +126,8 @@ const Secondlast = ({ productsdata }) => {
                 <img src={img2} alt="" />
             </div>
             <p>Secured Payment Gateways</p>
+            <div style={{ backgroundImage: `url(${payment})` }} className={styles.imgcont}></div>
         </div>
-    </>
-};
-
+    </Container>
+}
 export default Secondlast;

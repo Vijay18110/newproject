@@ -1,0 +1,53 @@
+
+.topCont{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 150px 25px 150px;
+    font-size: 15px;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 50px;
+    
+}
+
+.contentLeft{
+    flex: 0 0 auto;
+    width: 25%;
+}
+.contentRight{
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.centerCont{
+    padding: 0 150px 40px;
+}
+
+.table{
+    border: 1px solid #f3f3f3;
+}
+
+.centerCont .table th{
+    padding: 15px 20px;
+    text-align: start;
+    font-size: 15px;
+
+}
+
+
+.table td{
+    padding: 15px 20px;
+    text-align: start;
+    font-size: 15px;
+}
+.centerCont .bg_active{
+    background: #f3f3f3;
+    color: #535353 !important;
+}
+
+
+
+
+
+
